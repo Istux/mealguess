@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Select Time of Day"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/radioMidMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mid-Morning"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/radioLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/radioAfterLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After Lunch"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/radioSupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supper"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/radioAfterSupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="After Supper"
+            android:textSize="34sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Suggest Meal"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Reset"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Meal Suggestion will appear here"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+</LinearLayout>
+
